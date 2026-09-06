@@ -1,0 +1,6 @@
+{
+  "name": "GeoParcours UV-BF",
+  "description": "Application de gestion de parcours académique pour étudiant en Licence 1 Géomatique à l'Université Virtuelle du Burkina Faso (UV-BF).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

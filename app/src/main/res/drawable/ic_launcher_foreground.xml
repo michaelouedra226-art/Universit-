@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp area: x=21..87, y=21..87 -->
+    <!-- Globe Circle -->
+    <path
+        android:fillColor="#F5E6C8"
+        android:pathData="M54,26 C69.46,26 82,38.54 82,54 C82,69.46 69.46,82 54,82 C38.54,82 26,69.46 26,54 C26,38.54 38.54,26 54,26 Z" />
+    <!-- Globe Latitudes / Longitudes -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0A7A4B"
+        android:strokeWidth="1.8"
+        android:pathData="M54,26 L54,82 M26,54 L82,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0A7A4B"
+        android:strokeWidth="1.5"
+        android:pathData="M34,54 C34,42 42,30 54,26 C66,30 74,42 74,54 C74,66 66,78 54,82 C42,78 34,66 34,54 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0A7A4B"
+        android:strokeWidth="1.5"
+        android:pathData="M31,40 C42,46 66,46 77,40 M31,68 C42,62 66,62 77,68" />
+    <!-- Terracotta Geodesy / Navigation Pointer Pin -->
+    <path
+        android:fillColor="#E85D04"
+        android:pathData="M54,34 L62,54 L54,50 L46,54 Z" />
+    <path
+        android:fillColor="#3D2314"
+        android:pathData="M54,74 L46,54 L54,50 L62,54 Z" />
+    <!-- Center Compass Pinpoint -->
+    <path
+        android:fillColor="#FFF8F0"
+        android:pathData="M54,48 C55.1,48 56,48.9 56,50 C56,51.1 55.1,52 54,52 C52.9,52 52,51.1 52,50 C52,48.9 52.9,48 54,48 Z" />
+</vector>
